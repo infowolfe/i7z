@@ -60,6 +60,7 @@ void logCpuCstates_dual_c(char* value, int);
 void logCpuCstates_dual_ts(struct timespec  *value, int) ;
 
 void debug (bool quiet, char* message);
+int get_intel_model(char model);
 void print_model (bool quiet, int model);
 void error (char *message);
 
