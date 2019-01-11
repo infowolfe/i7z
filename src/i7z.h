@@ -137,7 +137,7 @@ void get_siblings_list(struct cpu_hierarchy_info* chi);
 void get_package_ids(struct cpu_hierarchy_info* chi);
 void print_cpu_list(struct cpu_hierarchy_info chi);
 void construct_cpu_hierarchy(struct cpu_hierarchy_info *chi);
-void Print_Information_Processor(bool*, bool*, bool*);
+void Print_Information_Processor(bool*, bool*, bool*, bool*);
 void Test_Or_Make_MSR_DEVICE_FILES();
 
 

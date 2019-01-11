@@ -300,7 +300,7 @@ uint64_t set_msr_value (int cpu, uint32_t reg, uint64_t data)
 
 
 // sets processor version
-void Print_Information_Processor(bool* nehalem, bool* sandy_bridge, bool* haswell)
+void Print_Information_Processor(bool* nehalem, bool* sandy_bridge, bool* ivy_bridge, bool* haswell)
 {
     struct family_info proc_info;
 
